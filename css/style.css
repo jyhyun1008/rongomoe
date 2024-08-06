@@ -1,0 +1,222 @@
+/* style.css*/
+
+@font-face {
+    font-family: 'HSSanTokki20-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405@1.0/HSSanTokki20-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NanumSquareNeoLight';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-aLt.eot);
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-aLt.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-aLt.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-aLt.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'NanumSquareNeo';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-bRg.eot);
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-bRg.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-bRg.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-bRg.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'NanumSquareNeoBold';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-cBd.eot);
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-cBd.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-cBd.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-cBd.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'NanumSquareNeoExtraBold';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-dEb.eot);
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-dEb.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-dEb.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-dEb.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'NanumSquareNeoHeavy';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-eHv.eot);
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-eHv.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-eHv.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-eHv.ttf) format("truetype");
+}
+
+:root {
+    --accent: #3ADFB6;
+    --accent-light: #a3ffd9;
+    --bg: #fcfcfc;
+}
+
+body {
+    font-family: 'NanumSquareNeo';
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg);
+    font-size: 18px;
+    line-height: 1.8;
+  }
+
+h1 {
+    color: var(--accent);
+    font-family: 'HSSanTokki20-Regular';
+    font-size: 3em;
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+.modoru a {
+    color: black !important;
+}
+
+h2, h3, h4, h5, h6, b, strong {
+    font-family: 'NanumSquareNeoExtraBold';
+    font-weight: normal;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+blockquote {
+  margin: 0;
+  padding: 0 0 0 40px;
+  border-left: 2px solid var(--accent);
+}
+  
+  nav {
+    background-color: var(--accent);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+  }
+  
+  .logo {
+    font-family: 'HSSanTokki20-Regular';
+    font-size: 1.75rem;
+  }
+
+  .logo a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-family: 'NanumSquareNeoExtraBold';
+  }
+  
+  nav ul li a:hover {
+    color: var(--accent-light);
+  }
+  
+  .checkbtn {
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    display: none;
+  }
+  
+  #check {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+
+    .checkbtn {
+      display: block;
+      order: 1;
+      margin-right: 20px;
+    }
+  
+    nav ul {
+      z-index: 999;
+      position: fixed;
+      top: 80px;
+      right: -100%;
+      background-color: var(--accent);
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      transition: all 0.3s;
+    }
+  
+    nav ul li {
+      margin: 20px 0;
+    }
+  
+    nav ul li a {
+      font-size: 20px;
+    }
+  
+    #check:checked ~ ul {
+      right: 0;
+    }
+  }
+
+#banner {
+    background-image: url('../assets/main.jpeg');
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#banner_txt {
+    position:absolute;
+    font-family: 'HSSanTokki20-Regular';
+    font-size: 5em;
+    color: white;
+    right: 0;
+    bottom: 10px;
+    text-align: right;
+    line-height: 1.2;
+}
+
+.page {
+    width: calc(100vw - 20px);
+    max-width: 840px;
+    margin: 70px auto;
+    padding: 10px;
+}
+
+code {
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #eeeeee;
+}
+
+.article {
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.article_date, .article_category {
+    font-size: 16px;
+    line-height: 2em;
+}
+
+img {
+  border-radius: 15px;
+  width: 100%;
+}
