@@ -4,31 +4,31 @@
 
 ## 자공 (단목사)
 
-![](./assets/shiko.png)
+<img src="./assets/shiko.png" class="profile"/>
 
 목소리: (CeVIO AI) POPY
 
 ## 재아 (재여)
 
-![](./assets/saiga.png)
+<img src="./assets/saiga.png" class="profile"/>
 
 목소리: (CeVIO AI) Rime
 
 ## 염유 (염구)
 
-![](./assets/zenyu.png)
+<img src="./assets/zenyu.png" class="profile"/>
 
 목소리: (CeVIO AI) 스즈키 츠즈미
 
 ## 자로 (중유)
 
-![](./assets/shiro.png)
+<img src="./assets/shiro.png" class="profile"/>
 
 목소리: (CeVIO AI) ROSE
 
 ## 안회 (안연)
 
-![](./assets/ganen.png)
+<img src="./assets/ganen.png" class="profile"/>
 
 목소리: (CeVIO AI) Sekai
 
