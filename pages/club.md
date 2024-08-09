@@ -71,6 +71,7 @@
 ### 자로 (중유)
 
 <img src="./assets/shiro.png" class="profile"/>
+
 | 이름 | 중유 |
 |---|---|
 | 별칭 | 자로 |
