@@ -21,7 +21,7 @@ var category = qs.c;
 var article = qs.a;
 var episode = qs.e;
 
-if (!page && !article) {
+if (!page && !article && !episode) {
     var url = "https://raw.githubusercontent.com/"+githubUserName+"/"+githubRepoName+"/main/README.md"
     fetch(url)
     .then(res => res.text())
@@ -71,7 +71,7 @@ if (!page && !article) {
 
                     for (var j=0; j<articles.length; j++){
                         if (articles[j].category == category || !category){
-                            document.querySelector(".article_list").innerHTML += '<div class="article"><a href="./?e='+articles[j].category+'_'+articles[j].date+'_'+articles[j].title+'"><span>'+articles[j].title+'</span><span><code>'+articles[j].category+'</code> <code>'+articles[j].date+'</code></span></a></div>'
+                            document.querySelector(".article_list").innerHTML += '<div class="article"><a href="./?a='+articles[j].category+'_'+articles[j].date+'_'+articles[j].title+'"><span>'+articles[j].title+'</span><span><code>'+articles[j].category+'</code> <code>'+articles[j].date+'</code></span></a></div>'
                         }
                     }
                 })
@@ -134,7 +134,7 @@ if (!page && !article) {
 
                     for (var j=0; j<articles.length; j++){
                         if (articles[j].category == category || !category){
-                            document.querySelector(".article_list").innerHTML += '<div class="article"><a href="./?a='+articles[j].category+'_'+articles[j].date+'_'+articles[j].title+'"><span>'+articles[j].title+'</span><span><code>'+articles[j].category+'</code> <code>'+articles[j].date+'</code></span></a></div>'
+                            document.querySelector(".article_list").innerHTML += '<div class="article"><a href="./?e='+articles[j].category+'_'+articles[j].date+'_'+articles[j].title+'"><span>'+articles[j].title+'</span><span><code>'+articles[j].category+'</code> <code>'+articles[j].date+'</code></span></a></div>'
                         }
                     }
                 })
