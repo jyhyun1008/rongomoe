@@ -49,7 +49,7 @@
 </div>
 <div id="tab-3" class="tab-content">
 
-# 염구 (염유))
+# 염구 (염유)
 
 <img src="./assets/zenyu.png" class="profile"/>
 
