@@ -5,7 +5,7 @@
 
 <div class="container2">
 	<ul class="tabs">
-		<li class="tab-link current" data-tab="tab-1"><div><img src="./assets/shiko.png" style="border-radius: 50%; border: 5px solid #996eff;"></div></li>
+		<li class="tab-link current" data-tab="tab-1"><div style="border-radius: 50%; border: 5px solid #996eff;"><img src="./assets/shiko.png"></div></li>
 		<li class="tab-link" data-tab="tab-2"><div style="border-radius: 50%; border: 5px solid #6effd4;"><img src="./assets/saiga.png"></div></li>
 		<li class="tab-link" data-tab="tab-3"><div style="border-radius: 50%; border: 5px solid #ffe1b8;"><img src="./assets/zenyu.png"></div></li>
 		<li class="tab-link" data-tab="tab-4"><div style="border-radius: 50%; border: 5px solid #ffc9e8;"><img src="./assets/ganen.png"></div></li>
