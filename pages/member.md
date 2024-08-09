@@ -6,17 +6,17 @@
 <div class="container2">
 	<ul class="tabs">
 		<li class="tab-link current" data-tab="tab-1"><div><img src="./assets/shiko.png" style="border-radius: 50%; border: 5px solid #996eff;"></div></li>
-		<li class="tab-link" data-tab="tab-2"><div><img src="./assets/saiga.png" style="border-radius: 50%; border: 5px solid #6effd4;"></div></li>
-		<li class="tab-link" data-tab="tab-3"><div><img src="./assets/zenyu.png" style="border-radius: 50%; border: 5px solid #ffe1b8;"></div></li>
-		<li class="tab-link" data-tab="tab-4"><div><img src="./assets/ganen.png" style="border-radius: 50%; border: 5px solid #ffc9e8;"></div></li>
-		<li class="tab-link" data-tab="tab-5"><div><img src="./assets/shiro.png" style="border-radius: 50%; border: 5px solid #4641D9;"></div></li>
-		<li class="tab-link" data-tab="tab-6"><div><img src="./assets/shiyu.PNG" style="border-radius: 50%; border: 5px solid #ffa36e;"></div></li>
-		<li class="tab-link" data-tab="tab-7"><div><img src="./assets/shika.PNG" style="border-radius: 50%; border: 5px solid #ffc26e;"></div></li>
-		<li class="tab-link" data-tab="tab-8"><div><img src="./assets/shicho.PNG" style="border-radius: 50%; border: 5px solid #ff6183;"></div></li>
-		<li class="tab-link" data-tab="tab-9"><div><img src="./assets/shiyo.PNG" style="border-radius: 50%; border: 5px solid #b8d3ff;"></div></li>
-		<li class="tab-link" data-tab="tab-10"><div><img src="./assets/hakugyu.PNG" style="border-radius: 50%; border: 5px solid #ffb5b5;"></div></li>
-		<li class="tab-link" data-tab="tab-11"><div><img src="./assets/chukyu.PNG" style="border-radius: 50%; border: 5px solid #9ee38f;"></div></li>
-		<li class="tab-link" data-tab="tab-12"><div><img src="./assets/shiken.PNG" style="border-radius: 50%; border: 5px solid #8cecff;"></div></li>
+		<li class="tab-link" data-tab="tab-2"><div style="border-radius: 50%; border: 5px solid #6effd4;"><img src="./assets/saiga.png"></div></li>
+		<li class="tab-link" data-tab="tab-3"><div style="border-radius: 50%; border: 5px solid #ffe1b8;"><img src="./assets/zenyu.png"></div></li>
+		<li class="tab-link" data-tab="tab-4"><div style="border-radius: 50%; border: 5px solid #ffc9e8;"><img src="./assets/ganen.png"></div></li>
+		<li class="tab-link" data-tab="tab-5"><div style="border-radius: 50%; border: 5px solid #4641D9;"><img src="./assets/shiro.png"></div></li>
+		<li class="tab-link" data-tab="tab-6"><div style="border-radius: 50%; border: 5px solid #ffa36e;"><img src="./assets/shiyu.PNG"></div></li>
+		<li class="tab-link" data-tab="tab-7"><div style="border-radius: 50%; border: 5px solid #ffc26e;"><img src="./assets/shika.PNG"></div></li>
+		<li class="tab-link" data-tab="tab-8"><div style="border-radius: 50%; border: 5px solid #ff6183;"><img src="./assets/shicho.PNG"></div></li>
+		<li class="tab-link" data-tab="tab-9"><div style="border-radius: 50%; border: 5px solid #b8d3ff;"><img src="./assets/shiyo.PNG"></div></li>
+		<li class="tab-link" data-tab="tab-10"><div style="border-radius: 50%; border: 5px solid #ffb5b5;"><img src="./assets/hakugyu.PNG"></div></li>
+		<li class="tab-link" data-tab="tab-11"><div style="border-radius: 50%; border: 5px solid #9ee38f;"><img src="./assets/chukyu.PNG"></div></li>
+		<li class="tab-link" data-tab="tab-12"><div style="border-radius: 50%; border: 5px solid #8cecff;"><img src="./assets/shiken.PNG"></div></li>
 	</ul>
 
 <div id="tab-1" class="tab-content current">
