@@ -318,9 +318,16 @@ ul.tabs li.current{
   align-items: center;
 }
 
-ul.tabs li img{
+ul.tabs li div{
+  position: relative;
   width: min(calc(840px / 6 - 45px), calc(100vw / 6 - 35px));
+  aspect-ratio: 1 / 1;
   border-radius: 25px;
+  overflow: hidden;
+}
+
+ul.tabs li div img{
+  position: absolute;
 }
 
 @media (max-width: 768px) {
