@@ -12,9 +12,11 @@
 		<li class="tab-link" data-tab="tab-5"><img src="./assets/shiro.png" style="max-width: 100px; border-radius: 50%; border: 5px solid #4641D9;"></li>
 		<li class="tab-link" data-tab="tab-6"><img src="./assets/shiyu.PNG" style="max-width: 100px; border-radius: 50%; border: 5px solid #FF5E00;"></li>
 		<li class="tab-link" data-tab="tab-7"><img src="./assets/shika.PNG" style="max-width: 100px; border-radius: 50%; border: 5px solid #FFBB00;"></li>
-		<li class="tab-link" data-tab="tab-8"><img src="./assets/hakugyu.PNG" style="max-width: 100px; border-radius: 50%; border: 5px solid #ED0000;"></li>
-		<li class="tab-link" data-tab="tab-9"><img src="./assets/chukyu.PNG" style="max-width: 100px; border-radius: 50%; border: 5px solid #87CE00;"></li>
-		<li class="tab-link" data-tab="tab-10"><img src="./assets/shiken.PNG" style="max-width: 100px; border-radius: 50%; border: 5px solid #00D8FF;"></li>
+		<li class="tab-link" data-tab="tab-8"><img src="./assets/shicho.PNG" style="max-width: 100px; border-radius: 50%; border: 5px solid #FF5E00;"></li>
+		<li class="tab-link" data-tab="tab-9"><img src="./assets/shiyo.PNG" style="max-width: 100px; border-radius: 50%; border: 5px solid #FFBB00;"></li>
+		<li class="tab-link" data-tab="tab-10"><img src="./assets/hakugyu.PNG" style="max-width: 100px; border-radius: 50%; border: 5px solid #ED0000;"></li>
+		<li class="tab-link" data-tab="tab-11"><img src="./assets/chukyu.PNG" style="max-width: 100px; border-radius: 50%; border: 5px solid #87CE00;"></li>
+		<li class="tab-link" data-tab="tab-12"><img src="./assets/shiken.PNG" style="max-width: 100px; border-radius: 50%; border: 5px solid #00D8FF;"></li>
 	</ul>
 
 <div id="tab-1" class="tab-content current">
@@ -96,18 +98,78 @@
 
 # 언언 (자유)
 
+<img src="./assets/shiyu.PNG" class="profile"/>
+
+| 이름 | 언언 |
+|---|---|
+| 별칭 | 자유 |
+| 나이 | 중학교 3학년 |
+| 소속 | 트로피컬 후르츠 |
+| 포지션 | 메인댄서 |
+| 목소리 | (Synthesizer V) |
+
 </div>
 <div id="tab-7" class="tab-content">
 
 # 복상 (자하)
 
+<img src="./assets/shika.PNG" class="profile"/>
+
+| 이름 | 복상 |
+|---|---|
+| 별칭 | 자하 |
+| 나이 | 중학교 3학년 |
+| 소속 | 트로피컬 후르츠 |
+| 포지션 | 서브보컬 |
+| 목소리 | (Synthesizer V) 하나쿠마 치후유 |
+
 </div>
 <div id="tab-8" class="tab-content">
 
-# 염경 (백우)
+# 전손사 (자장)
+
+<img src="./assets/shicho.PNG" class="profile"/>
+
+| 이름 | 전손사 |
+|---|---|
+| 별칭 | 자장 |
+| 나이 | 중학교 3학년 |
+| 소속 | 트로피컬 후르츠 |
+| 포지션 | 메인보컬 |
+| 목소리 | (Synthesizer V) 나츠키 카린 |
 
 </div>
 <div id="tab-9" class="tab-content">
+
+# 증삼 (자여)
+
+<img src="./assets/shiyo.PNG" class="profile"/>
+
+| 이름 | 증삼 |
+|---|---|
+| 별칭 | 자여 |
+| 나이 | 중학교 3학년 |
+| 소속 | 트로피컬 후르츠 |
+| 포지션 | 서브보컬 |
+| 목소리 | (C:d Live)연이나 |
+
+</div>
+<div id="tab-10" class="tab-content">
+
+# 염경 (백우)
+
+<img src="./assets/hakugyu.PNG" class="profile"/>
+
+| 이름 | 염경 |
+|---|---|
+| 별칭 | 백우 |
+| 나이 | 고등학교 3학년 |
+| 소속 | 트라이톤 |
+| 포지션 | 첼로 |
+| 목소리 | (CeVIO AI) IA |
+
+</div>
+<div id="tab-11" class="tab-content">
 
 # 염옹 (중궁)
 
@@ -118,13 +180,23 @@
 | 별칭 | 중궁 |
 | 나이 | 고등학교 2학년 |
 | 소속 | 트라이톤 |
-| 포지션 | 피아노 |
-| 목소리 | (CeVIO AI) Sekai |
+| 포지션 | 어쿠스틱 기타 |
+| 목소리 | (CeVIO AI) 사토 사사라 |
 
 </div>
-<div id="tab-10" class="tab-content">
+<div id="tab-12" class="tab-content">
 
 # 민손 (자건)
+
+<img src="./assets/shiken.PNG" class="profile"/>
+
+| 이름 | 민손 |
+|---|---|
+| 별칭 | 자건 |
+| 나이 | 고등학교 3학년 |
+| 소속 | 트라이톤 |
+| 포지션 | 트럼펫 |
+| 목소리 | (CeVIO AI) 후타바 미나토 |
 
 </div>
 </div>
