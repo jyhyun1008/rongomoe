@@ -226,7 +226,6 @@ img {
   text-align:center;
 }
 
-
 .container2 {
   width: 100%;
   margin: 0 auto;
@@ -255,6 +254,8 @@ ul.tabs li.current{
 }
 
 .tab-content.current{
-    display: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 

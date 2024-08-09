@@ -4,7 +4,7 @@
 
 
 <div class="container2">
-	<ul class="tabs" style="max-width: 700px;">
+	<ul class="tabs">
 		<li class="tab-link current" data-tab="tab-1"><img src="./assets/shiko.png" style="max-width: 75px; border-radius: 50%; border: 5px solid #996eff;"></li>
 		<li class="tab-link" data-tab="tab-2"><img src="./assets/saiga.png" style="max-width: 75px; border-radius: 50%; border: 5px solid #6effd4;"></li>
 		<li class="tab-link" data-tab="tab-3"><img src="./assets/zenyu.png" style="max-width: 75px; border-radius: 50%; border: 5px solid #ffe1b8;"></li>
