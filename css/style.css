@@ -95,6 +95,7 @@ blockquote {
 
 .wrapper{
   position: fixed;
+  z-index: 997;
   top: 0;
   left: 0;
   height: 100%;
@@ -320,7 +321,6 @@ ul.tabs li.current{
 
 ul.tabs li div{
   position: relative;
-  z-index: -3;
   width: min(calc(840px / 6 - 45px), calc(100vw / 6 - 35px));
   aspect-ratio: 1 / 1;
   border-radius: 25px;
