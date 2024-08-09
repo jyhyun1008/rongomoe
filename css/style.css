@@ -319,7 +319,7 @@ ul.tabs li.current{
 }
 
 ul.tabs li img{
-  width: min(calc(840px / 6 - 35px), calc(100vw / 6 - 35px));
+  width: min(calc(840px / 6 - 45px), calc(100vw / 6 - 35px));
   border-radius: 25px;
 }
 
