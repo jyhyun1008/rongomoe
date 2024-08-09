@@ -19,9 +19,9 @@
 
 <div id="tab-1" class="tab-content current">
 
-<img src="./assets/shiko.png" class="profile"/>
-
 # 단목사 (자공)
+
+<img src="./assets/shiko.png" class="profile"/>
 
 | 이름 | 단목사 |
 |---|---|
@@ -34,9 +34,9 @@
 </div>
 <div id="tab-2" class="tab-content">
 
-<img src="./assets/saiga.png" class="profile"/>
-
 # 재여 (재아)
+
+<img src="./assets/saiga.png" class="profile"/>
 
 | 이름 | 재여 |
 |---|---|
