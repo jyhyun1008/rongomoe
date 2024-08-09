@@ -145,6 +145,7 @@ blockquote {
 }
 
 .wrapper ul{
+  padding-inline-start: 0;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -289,18 +290,19 @@ ul.tabs{
     list-style: none;
     text-align: center;
 }
+
 ul.tabs li{
     background: none;
     display: inline-block;
     padding: 10px 15px 0px 15px;
     cursor: pointer;
 }
+
   ul.tabs li:hover{
     border-radius: 25px;
     background: var(--accent-light);
 }
   
-
 ul.tabs li.current{
     border-radius: 25px;
     background: var(--accent-light);
@@ -319,7 +321,6 @@ ul.tabs li.current{
 ul.tabs li img{
   width: min(calc(840px / 6 - 35px), calc(100vw / 6 - 35px));
   border-radius: 25px;
-  background: var(--accent-light);
 }
 
 @media (max-width: 768px) {
