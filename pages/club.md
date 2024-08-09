@@ -94,24 +94,24 @@
 </div>
 <div id="tab-6" class="tab-content">
 
-<img src="./assets/chr/Yanyan/intro.png">
+# 언언 (자유)
 
 </div>
 <div id="tab-7" class="tab-content">
 
-<img src="./assets/chr/Bushang/intro.png">
+# 복상 (자하)
 
 </div>
 <div id="tab-8" class="tab-content">
 
-<img src="./assets/chr/Rangeng/intro.png">
+# 염경 (백우)
 
 </div>
 <div id="tab-9" class="tab-content">
 
 # 염옹 (중궁)
 
-<img src="./assets/ganen.png" class="profile"/>
+<img src="./assets/chukyu.PNG" class="profile"/>
 
 | 이름 | 염옹 |
 |---|---|
@@ -124,7 +124,7 @@
 </div>
 <div id="tab-10" class="tab-content">
 
-<img src="./assets/chr/Minsun/intro.png">
+# 민손 (자건)
 
 </div>
 </div>
