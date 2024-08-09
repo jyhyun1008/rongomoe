@@ -91,11 +91,11 @@
 		<li class="tab-link" data-tab="tab-3"><img src="./assets/zenyu.png" style="max-width: 100px; border-radius: 50%; border: 5px solid #C4B68F;"></li>
 		<li class="tab-link" data-tab="tab-4"><img src="./assets/ganen.png" style="max-width: 100px; border-radius: 50%; border: 5px solid #F361A6;"></li>
 		<li class="tab-link" data-tab="tab-5"><img src="./assets/shiro.png" style="max-width: 100px; border-radius: 50%; border: 5px solid #4641D9;"></li>
-		<li class="tab-link" data-tab="tab-6"><img src="./assets/shiyu.png" style="max-width: 100px; border-radius: 50%; border: 5px solid #FF5E00;"></li>
-		<li class="tab-link" data-tab="tab-7"><img src="./assets/shika.png" style="max-width: 100px; border-radius: 50%; border: 5px solid #FFBB00;"></li>
-		<li class="tab-link" data-tab="tab-8"><img src="./assets/hakugyu.png" style="max-width: 100px; border-radius: 50%; border: 5px solid #ED0000;"></li>
-		<li class="tab-link" data-tab="tab-9"><img src="./assets/chukyu.png" style="max-width: 100px; border-radius: 50%; border: 5px solid #87CE00;"></li>
-		<li class="tab-link" data-tab="tab-10"><img src="./assets/shiken.png" style="max-width: 100px; border-radius: 50%; border: 5px solid #00D8FF;"></li>
+		<li class="tab-link" data-tab="tab-6"><img src="./assets/shiyu.PNG" style="max-width: 100px; border-radius: 50%; border: 5px solid #FF5E00;"></li>
+		<li class="tab-link" data-tab="tab-7"><img src="./assets/shika.PNG" style="max-width: 100px; border-radius: 50%; border: 5px solid #FFBB00;"></li>
+		<li class="tab-link" data-tab="tab-8"><img src="./assets/hakugyu.PNG" style="max-width: 100px; border-radius: 50%; border: 5px solid #ED0000;"></li>
+		<li class="tab-link" data-tab="tab-9"><img src="./assets/chukyu.PNG" style="max-width: 100px; border-radius: 50%; border: 5px solid #87CE00;"></li>
+		<li class="tab-link" data-tab="tab-10"><img src="./assets/shiken.PNG" style="max-width: 100px; border-radius: 50%; border: 5px solid #00D8FF;"></li>
 	</ul>
 
 <div id="tab-1" class="tab-content current">
