@@ -301,12 +301,12 @@ ul.tabs li{
 
   ul.tabs li:hover{
     border-radius: 25px;
-    background: var(--accent-light);
+    background-color: #eeeeee;
 }
   
 ul.tabs li.current{
     border-radius: 25px;
-    background: var(--accent-light);
+    background-color: #eeeeee;
 }
 
 .tab-content{
