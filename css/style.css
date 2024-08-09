@@ -224,3 +224,36 @@ img {
 .profile {
   max-width: 256px;
 }
+
+
+.container2 {
+  width: 100%;
+  margin: 20px auto;
+}
+
+ul.tabs{
+    margin: 0 auto;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+}
+ul.tabs li{
+    background: none;
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+ul.tabs li.current{
+    border-radius: 25px;
+    background: var(--yellow);
+}
+
+.tab-content{
+    display: none;
+}
+
+.tab-content.current{
+    display: inherit;
+}
+
