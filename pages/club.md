@@ -2,88 +2,6 @@
 
 각 캐릭터의 전신 이미지는 [나나곰님 픽크루](https://picrew.me/ja/image_maker/2033441) 로 제작 및 수정 하였습니다.
 
-## 고등학교 1학년
-
-### 자공 (단목사)
-
-<img src="./assets/shiko.png" class="profile"/>
-
-| 이름 | 단목사 |
-|---|---|
-| 별칭 | 자공 |
-| 나이 | 고등학교 1학년 |
-| 소속 | 현가지성 |
-| 포지션 | 기타 & 보컬 |
-| 목소리 | (CeVIO AI) POPY |
-
-## 고등학교 2학년
-
-### 재아 (재여)
-
-<img src="./assets/saiga.png" class="profile"/>
-
-| 이름 | 재여 |
-|---|---|
-| 별칭 | 재아 |
-| 나이 | 고등학교 2학년 |
-| 소속 | 현가지성 |
-| 포지션 | 기타 |
-| 목소리 | (CeVIO AI) Rime |
-
-### 염유 (염구)
-
-<img src="./assets/zenyu.png" class="profile"/>
-
-| 이름 | 염구 |
-|---|---|
-| 별칭 | 염유 |
-| 나이 | 고등학교 2학년 |
-| 소속 | 현가지성 |
-| 포지션 | 베이스 |
-| 목소리 | (CeVIO AI) 스즈키 츠즈미 |
-
-### 안회 (안연)
-
-<img src="./assets/ganen.png" class="profile"/>
-
-| 이름 | 안회 |
-|---|---|
-| 별칭 | 안연 |
-| 나이 | 고등학교 2학년 |
-| 소속 | 현가지성 |
-| 포지션 | 피아노 |
-| 목소리 | (CeVIO AI) Sekai |
-
-### 염옹 (중궁)
-
-<img src="./assets/ganen.png" class="profile"/>
-
-| 이름 | 염옹 |
-|---|---|
-| 별칭 | 중궁 |
-| 나이 | 고등학교 2학년 |
-| 소속 | 트라이톤 |
-| 포지션 | 피아노 |
-| 목소리 | (CeVIO AI) Sekai |
-
-## 고등학교 3학년
-
-### 자로 (중유)
-
-<img src="./assets/shiro.png" class="profile"/>
-
-| 이름 | 중유 |
-|---|---|
-| 별칭 | 자로 |
-| 나이 | 고등학교 3학년 |
-| 소속 | 현가지성 |
-| 포지션 | 드럼 |
-| 목소리 | (CeVIO AI) ROSE |
-
-# 모임
-
-## 현가지성
-
 
 <div class="container2">
 	<ul class="tabs" style="max-width: 700px;">
@@ -103,6 +21,8 @@
 
 <img src="./assets/shiko.png" class="profile"/>
 
+# 단목사 (자공)
+
 | 이름 | 단목사 |
 |---|---|
 | 별칭 | 자공 |
@@ -114,22 +34,62 @@
 </div>
 <div id="tab-2" class="tab-content">
 
-<img src="./assets/chr/Zaiyu/intro.png">
+<img src="./assets/saiga.png" class="profile"/>
+
+# 재여 (재아)
+
+| 이름 | 재여 |
+|---|---|
+| 별칭 | 재아 |
+| 나이 | 고등학교 2학년 |
+| 소속 | 현가지성 |
+| 포지션 | 기타 |
+| 목소리 | (CeVIO AI) Rime |
 
 </div>
 <div id="tab-3" class="tab-content">
 
-<img src="./assets/chr/Ranqiu/intro.png">
+# 염구 (염유))
+
+<img src="./assets/zenyu.png" class="profile"/>
+
+| 이름 | 염구 |
+|---|---|
+| 별칭 | 염유 |
+| 나이 | 고등학교 2학년 |
+| 소속 | 현가지성 |
+| 포지션 | 베이스 |
+| 목소리 | (CeVIO AI) 스즈키 츠즈미 |
 
 </div>
 <div id="tab-4" class="tab-content">
 
-<img src="./assets/chr/Yanhui/intro.png">
+# 안회 (안연)
+
+<img src="./assets/ganen.png" class="profile"/>
+
+| 이름 | 안회 |
+|---|---|
+| 별칭 | 안연 |
+| 나이 | 고등학교 2학년 |
+| 소속 | 현가지성 |
+| 포지션 | 피아노 |
+| 목소리 | (CeVIO AI) Sekai |
 
 </div>
 <div id="tab-5" class="tab-content">
 
-<img src="./assets/chr/Zhongyou/intro.png">
+# 자로 (중유)
+
+<img src="./assets/shiro.png" class="profile"/>
+
+| 이름 | 중유 |
+|---|---|
+| 별칭 | 자로 |
+| 나이 | 고등학교 3학년 |
+| 소속 | 현가지성 |
+| 포지션 | 드럼 |
+| 목소리 | (CeVIO AI) ROSE |
 
 </div>
 <div id="tab-6" class="tab-content">
@@ -149,7 +109,17 @@
 </div>
 <div id="tab-9" class="tab-content">
 
-<img src="./assets/chr/Ranyong/intro.png">
+# 염옹 (중궁)
+
+<img src="./assets/ganen.png" class="profile"/>
+
+| 이름 | 염옹 |
+|---|---|
+| 별칭 | 중궁 |
+| 나이 | 고등학교 2학년 |
+| 소속 | 트라이톤 |
+| 포지션 | 피아노 |
+| 목소리 | (CeVIO AI) Sekai |
 
 </div>
 <div id="tab-10" class="tab-content">
