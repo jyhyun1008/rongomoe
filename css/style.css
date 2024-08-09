@@ -336,6 +336,6 @@ ul.tabs li div img{
 
 @media (max-width: 768px) {
   ul.tabs li {
-    padding: 10px 5px 0px 5px;
+    padding: 5px;
   }
 }
