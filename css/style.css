@@ -321,7 +321,7 @@ ul.tabs li.current{
 
 ul.tabs li div{
   position: relative;
-  width: min(calc(840px / 6 - 45px), calc(100vw / 6 - 20px));
+  width: calc(840px / 6 - 45px);
   aspect-ratio: 1 / 1;
   border-radius: 25px;
   overflow: hidden;
@@ -338,5 +338,9 @@ ul.tabs li div img{
   ul.tabs li {
     padding: 5px;
     margin: -5px;
+  }
+
+  ul.tabs li div{
+    width:  calc(100vw / 6 - 20px);
   }
 }
