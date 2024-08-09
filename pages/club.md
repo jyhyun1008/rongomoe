@@ -98,7 +98,7 @@
 		<li class="tab-link" data-tab="tab-10"><img src="./assets/shiken.png" style="max-width: 100px; border-radius: 50%; border: 5px solid #00D8FF;"></li>
 	</ul>
 
-	<div id="tab-1" class="tab-content current">
+< id="tab-1" class="tab-content current">
 
 <img src="./assets/shiko.png" class="profile"/>
 
@@ -110,50 +110,50 @@
 | 포지션 | 기타 & 보컬 |
 | 목소리 | (CeVIO AI) POPY |
 
-	</div>
-	<div id="tab-2" class="tab-content">
+</div>
+<div id="tab-2" class="tab-content">
 
 <img src="./assets/chr/Zaiyu/intro.png">
 
-	</div>
-	<div id="tab-3" class="tab-content">
+</div>
+<div id="tab-3" class="tab-content">
 
 <img src="./assets/chr/Ranqiu/intro.png">
 
-	</div>
-    <div id="tab-4" class="tab-content">
+</div>
+<div id="tab-4" class="tab-content">
 
 <img src="./assets/chr/Yanhui/intro.png">
 
-	</div>
-	<div id="tab-5" class="tab-content">
+</div>
+<div id="tab-5" class="tab-content">
 
 <img src="./assets/chr/Zhongyou/intro.png">
 
-	</div>
-    <div id="tab-6" class="tab-content">
+</div>
+<div id="tab-6" class="tab-content">
 
 <img src="./assets/chr/Yanyan/intro.png">
 
-	</div>
-	<div id="tab-7" class="tab-content">
+</div>
+<div id="tab-7" class="tab-content">
 
 <img src="./assets/chr/Bushang/intro.png">
 
-	</div>
-    <div id="tab-8" class="tab-content">
+</div>
+<div id="tab-8" class="tab-content">
 
 <img src="./assets/chr/Rangeng/intro.png">
 
-	</div>
-	<div id="tab-9" class="tab-content">
+</div>
+<div id="tab-9" class="tab-content">
 
 <img src="./assets/chr/Ranyong/intro.png">
 
-	</div>
-    <div id="tab-10" class="tab-content">
+</div>
+<div id="tab-10" class="tab-content">
 
 <img src="./assets/chr/Minsun/intro.png">
 
-	</div>
+</div>
 </div>
