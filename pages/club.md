@@ -98,7 +98,7 @@
 		<li class="tab-link" data-tab="tab-10"><img src="./assets/shiken.png" style="max-width: 100px; border-radius: 50%; border: 5px solid #00D8FF;"></li>
 	</ul>
 
-< id="tab-1" class="tab-content current">
+<div id="tab-1" class="tab-content current">
 
 <img src="./assets/shiko.png" class="profile"/>
 
