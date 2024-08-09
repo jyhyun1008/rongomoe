@@ -15,7 +15,7 @@
 		<li class="tab-link" data-tab="tab-8"><img src="./assets/shicho.PNG" style="max-width: 75px; border-radius: 50%; border: 5px solid #ff6183;"></li>
 		<li class="tab-link" data-tab="tab-9"><img src="./assets/shiyo.PNG" style="max-width: 75px; border-radius: 50%; border: 5px solid #b8d3ff;"></li>
 		<li class="tab-link" data-tab="tab-10"><img src="./assets/hakugyu.PNG" style="max-width: 75px; border-radius: 50%; border: 5px solid #ffb5b5;"></li>
-		<li class="tab-link" data-tab="tab-11"><img src="./assets/chukyu.PNG" style="max-width: 75px; border-radius: 50%; border: 5px solid #87CE00;"></li>
+		<li class="tab-link" data-tab="tab-11"><img src="./assets/chukyu.PNG" style="max-width: 75px; border-radius: 50%; border: 5px solid #9ee38f;"></li>
 		<li class="tab-link" data-tab="tab-12"><img src="./assets/shiken.PNG" style="max-width: 75px; border-radius: 50%; border: 5px solid #8cecff;"></li>
 	</ul>
 
