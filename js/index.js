@@ -71,7 +71,7 @@ if (!page && !article && !episode) {
 
                     for (var j=0; j<articles.length; j++){
                         if (articles[j].category == category || !category){
-                            document.querySelector(".article_list").innerHTML += '<div class="article"><a href="./?a='+articles[j].category+'_'+articles[j].date+'_'+articles[j].title+'"><span>'+articles[j].title+'</span><span><code>'+articles[j].category+'</code> <code>'+articles[j].date+'</code></span></a></div>'
+                            document.querySelector(".article_list").innerHTML += '<div class="article"><a href="./?a='+articles[j].category+'_'+articles[j].date+'_'+articles[j].title+'"><span>'+articles[j].title+'</span> <span><code>'+articles[j].category+'</code> <code>'+articles[j].date+'</code></span></a></div>'
                         }
                     }
                 })
@@ -92,7 +92,7 @@ if (!page && !article && !episode) {
         document.querySelector(".article_content").innerHTML += marked.parse(out)
     })
 } else if (page == 'story') {
-    document.querySelector(".page_title").innerText = '활동 기록'
+    document.querySelector(".page_title").innerText = '스토리'
     if (category) {
         document.querySelector(".page_title").innerText += '/'+category
     } 
@@ -134,7 +134,7 @@ if (!page && !article && !episode) {
 
                     for (var j=0; j<articles.length; j++){
                         if (articles[j].category == category || !category){
-                            document.querySelector(".article_list").innerHTML += '<div class="article"><a href="./?e='+articles[j].category+'_'+articles[j].date+'_'+articles[j].title+'"><span>'+articles[j].title+'</span><span><code>'+articles[j].category+'</code> <code>'+articles[j].date+'</code></span></a></div>'
+                            document.querySelector(".article_list").innerHTML += '<div class="article"><a href="./?e='+articles[j].category+'_'+articles[j].date+'_'+articles[j].title+'"><span>'+articles[j].title+'</span> <span><code>'+articles[j].category+'</code> <code>'+articles[j].date+'</code></span></a></div>'
                         }
                     }
                 })
