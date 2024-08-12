@@ -181,7 +181,7 @@ if (!page && !article && !episode) {
             } else {
                 document.querySelector(".article_prevnext").innerHTML += '<div id="next">마지막 에피소드입니다.</div>'
             }
-            document.querySelector(".article_reply").innerHTML = '<a href="https://postype.com/@175ame/post/'+episode+'">덧글 달고 후원하러 가기</a>'
+            document.querySelector(".article_reply").innerHTML = '<a href="https://postype.com/@175ame/post/'+episode+'" target="_blank">덧글 달고 후원하러 가기</a>'
 
             var content_list = content.split('<div class="photoset-inner">')
             for (var j=1; j<content_list.length; j++){
