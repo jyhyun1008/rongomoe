@@ -114,7 +114,7 @@ if (!page && !article && !episode) {
                 articles.push({
                     title: episodes[j].title.split(' ')[2],
                     category: episodes[j].title.split(' ')[1],
-                    url: episodes[j].link
+                    url: episodes[j].link.split('post/')[1]
                 })
                 categories.push(episodes[j].title.split(' ')[1])
             }
@@ -128,7 +128,7 @@ if (!page && !article && !episode) {
 
         for (var j=0; j<articles.length; j++){
             if (articles[j].category == category || !category){
-                document.querySelector(".article_list").innerHTML += '<div class="article"><a href="'+articles[j].url+'"><span>'+articles[j].title+'</span> <span><code>'+articles[j].category+'</code></span></a></div>'
+                document.querySelector(".article_list").innerHTML += '<div class="article"><a href="./?e='+articles[j].url+'"><span>'+articles[j].title+'</span> <span><code>'+articles[j].category+'</code></span></a></div>'
             }
         }
 
@@ -141,19 +141,53 @@ if (!page && !article && !episode) {
     //     var episodes = out.items
 
     // })
-} else if (episode) {
-    var article_category = episode.split('_')[0]
-    var article_date = episode.split('_')[1]
-    var article_title = episode.split('_')[2].split('.')[0]
-    var url = "https://raw.githubusercontent.com/"+githubUserName+"/"+githubRepoName+"/main/story/"+episode+".md"
-    fetch(url)
-    .then(res => res.text())
-    .then((out) => {
-        document.querySelector(".page_title").innerText = article_title
-        document.querySelector(".page_content").innerHTML += '<div class="article_category"></div><div class="article_content"></div>'
-        document.querySelector(".article_category").innerHTML = '<a href="./?p=story&c='+article_category+'">' + article_category+'</a> · '+article_date
-        document.querySelector(".article_content").innerHTML += marked.parse(out)
-    })
+ } else if (episode) {
+//     var article_category = episode.split('_')[0]
+//     var article_date = episode.split('_')[1]
+//     var article_title = episode.split('_')[2].split('.')[0]
+//     var url = "https://raw.githubusercontent.com/"+githubUserName+"/"+githubRepoName+"/main/story/"+episode+".md"
+//     fetch(url)
+//     .then(res => res.text())
+    // .then((out) => {
+    //     document.querySelector(".page_title").innerText = article_title
+    //     document.querySelector(".page_content").innerHTML += '<div class="article_category"></div><div class="article_content"></div>'
+    //     document.querySelector(".article_category").innerHTML = '<a href="./?p=story&c='+article_category+'">' + article_category+'</a> · '+article_date
+    //     document.querySelector(".article_content").innerHTML += marked.parse(out)
+
+        const CORS_PROXY = "https://proxy.rongo.moe/?url=https://postype.com/@175ame/post/"
+        fetch(CORS_PROXY + episode)
+        .then(res => res.text())
+        .then((content) => {
+
+            var content_title = content.split('<h1 class="MuiTypography-root MuiTypography-body-md joy-73k6v1">')[1].split('</h1>')[0].split(' ')[2]
+            var content_category = content.split('<h1 class="MuiTypography-root MuiTypography-body-md joy-73k6v1">')[1].split('</h1>')[0].split(' ')[1]
+            var content_prev, content_next
+            if (content.includes('joy-6mbqgc')) {
+                content_prev = content.split('<section class="MuiStack-root post-navigation joy-1tk24vt">')[1].split('class="MuiStack-root joy-6mbqgc" href="/@175ame/post/')[1].split('"')[0]
+            }
+            if (content.includes('joy-vce80x')) {
+                content_next = content.split('<section class="MuiStack-root post-navigation joy-1tk24vt">')[1].split('class="MuiStack-root joy-vce80x" href="/@175ame/post/')[1].split('"')[0]
+            }
+            document.querySelector(".page_title").innerText = content_title
+            document.querySelector(".page_content").innerHTML += '<div class="article_category"></div><div class="article_content"></div><div class="article_prevnext"></div><div class="article_reply"></div>'
+            document.querySelector(".article_category").innerHTML = '<a href="./?p=story&c='+content_category+'">' + content_category+'</a>'
+            if (content_prev) {
+                document.querySelector(".article_prevnext").innerHTML += '<div id="prev"><a href="./?e='+content_prev+'">이전글</a></div>'
+            } else {
+                document.querySelector(".article_prevnext").innerHTML += '<div id="prev">첫 에피소드입니다.</div>'
+            }
+            if (content_next) {
+                document.querySelector(".article_prevnext").innerHTML += '<div id="next"><a href="./?e='+content_next+'">다음글</a></div>'
+            } else {
+                document.querySelector(".article_prevnext").innerHTML += '<div id="next">마지막 에피소드입니다.</div>'
+            }
+            document.querySelector(".article_reply").innerHTML = '<a href="https://postype.com/@175ame/post/'+episode+'">덧글 달고 후원하러 가기</a>'
+
+            var content_list = content.split('<div class="photoset-inner">')
+            for (var j=1; j<content_list.length; j++){
+                document.querySelector(".article_content").innerHTML += '<img class="story_img" src="'+content_list[j].split('" alt="')[1].split('">')[0]+'">'
+            }
+        })
 } else if (page) {
     var url = "https://raw.githubusercontent.com/"+githubUserName+"/"+githubRepoName+"/main/pages/"+page+".md"
     fetch(url)

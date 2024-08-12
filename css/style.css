@@ -344,3 +344,22 @@ ul.tabs li div img{
     width:  calc(100vw / 6 - 20px);
   }
 }
+
+.article_prevnext {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.article_reply {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: var(--accent);
+}
+
+.article_reply a {
+  color: white !important;
+  font-family: 'HSSanTokki20-Regular';
+  font-size: 1.5em;
+}
