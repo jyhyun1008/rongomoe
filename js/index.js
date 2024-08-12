@@ -1,6 +1,7 @@
 const githubUserName = 'jyhyun1008' // 깃허브 아이디
 const githubRepoName = 'rongomoe' // 깃허브 레포지토리 이름
 
+
 function getQueryStringObject() {
     var a = window.location.search.substr(1).split('&');
     if (a == "") return {};
@@ -97,50 +98,49 @@ if (!page && !article && !episode) {
         document.querySelector(".page_title").innerText += '/'+category
     } 
     document.querySelector(".page_content").innerHTML += '<div class="modoru"><a href="./?p=story">전체보기</a></div>'
-    document.querySelector(".page_content").innerHTML += '<div class="article_list"></div>'
-    var url = "https://api.github.com/repos/"+githubUserName+"/"+githubRepoName+"/git/trees/main"
-    fetch(url)
-    .then(res => res.text())
-    .then((out) => {
-        var resultree1 = JSON.parse(out).tree;
-        for (var k=0; k < resultree1.length; k++) {
-            if (resultree1[k].path == 'story') {
-                var resulturl1 = resultree1[k].url
-                fetch(resulturl1)
-                .then(res2 => res2.text())
-                .then((out2) => {
-                    var resultree2 = JSON.parse(out2).tree;
-                    console.log(resultree2)
+    document.querySelector(".page_content").innerHTML += '<div class="article_list"></div>';
 
-                    resultree2.sort((a, b) => parseInt(b.path.split('_')[1]) - parseInt(a.path.split('_')[1]));
-                    var articles = []
-                    var categories = []
-                    for (var j=0; j<resultree2.length;j++) {
-                        articles.push({
-                            title: resultree2[j].path.split('_')[2].split('.')[0],
-                            category: resultree2[j].path.split('_')[0],
-                            date: resultree2[j].path.split('_')[1]
-                        })
-                        categories.push(resultree2[j].path.split('_')[0])
-                    }
+    const CORS_PROXY = "https://proxy.rongo.moe/?url=" //나중에 다른 서버로 바꿔줘야함
+    let parser = new RSSParser();
+    (async () => {
 
-                    console.log(articles)
-
-                    var categorieset = new Set(categories);
-                    categories = [...categorieset];
-                    for (var j=0; j<categories.length; j++){
-                    document.querySelector(".modoru").innerHTML += ' · <a href="./?p=story&c='+categories[j]+'">'+categories[j] + '</a>'
-                    }
-
-                    for (var j=0; j<articles.length; j++){
-                        if (articles[j].category == category || !category){
-                            document.querySelector(".article_list").innerHTML += '<div class="article"><a href="./?e='+articles[j].category+'_'+articles[j].date+'_'+articles[j].title+'"><span>'+articles[j].title+'</span> <span><code>'+articles[j].category+'</code> <code>'+articles[j].date+'</code></span></a></div>'
-                        }
-                    }
+        let feed = await parser.parseURL(CORS_PROXY + 'https://postype.com/@175ame/rss');
+        var episodes = feed.items
+        
+        var articles = []
+        var categories = []
+        for (var j=0; j<episodes.length;j++) {
+            if (episodes[j].title.includes('논어.모에!')) {
+                articles.push({
+                    title: episodes[j].title.split(' ')[2],
+                    category: episodes[j].title.split(' ')[1],
+                    url: episodes[j].link
                 })
+                categories.push(episodes[j].title.split(' ')[1])
             }
         }
-    })
+
+        var categorieset = new Set(categories);
+        categories = [...categorieset];
+        for (var j=0; j<categories.length; j++){
+        document.querySelector(".modoru").innerHTML += ' · <a href="./?p=blog&c='+categories[j]+'">'+categories[j] + '</a>'
+        }
+
+        for (var j=0; j<articles.length; j++){
+            if (articles[j].category == category || !category){
+                document.querySelector(".article_list").innerHTML += '<div class="article"><a href="'+articles[j].url+'"><span>'+articles[j].title+'</span> <span><code>'+articles[j].category+'</code></span></a></div>'
+            }
+        }
+
+       }
+    )();
+    // var url = "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fpostype.com%2F%40175ame%2Frss"
+    // fetch(url)
+    // .then(res => res.json())
+    // .then((out) => {
+    //     var episodes = out.items
+
+    // })
 } else if (episode) {
     var article_category = episode.split('_')[0]
     var article_date = episode.split('_')[1]
