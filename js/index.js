@@ -185,7 +185,9 @@ if (!page && !article && !episode) {
 
             var content_list = content.split('<div class="photoset-inner">')
             for (var j=1; j<content_list.length; j++){
-                document.querySelector(".article_content").innerHTML += '<img class="story_img" src="'+content_list[j].split('" alt="')[1].split('">')[0]+'">'
+                if (!content_list[j].includes('" alt=""')){
+                    document.querySelector(".article_content").innerHTML += '<img class="story_img" src="'+content_list[j].split('" alt="')[1].split('">')[0]+'">'
+                }
             }
         })
 } else if (page) {
